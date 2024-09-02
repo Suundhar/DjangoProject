@@ -1,0 +1,104 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Klinik - Clinic Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+  <link rel="stylesheet" href="{% static './style.css' %}" />
+  </head>
+
+  <body>
+    <!-- partial:index.partial.html -->
+
+    <section>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+      <span></span> <span></span> <span></span> <span></span> <span></span>
+
+      <div class="signin">
+        <div class="content">
+          <h2>Sign In</h2>
+
+          <div class="form">
+            <form action="loginuser" method="POST">
+              {% csrf_token %}
+            <div class="inputBox">
+              <input type="text" required name="name"/> <i>name</i>
+            </div>
+            
+    <div class="col-12 col-sm-6">
+        <select class="form-select border-0" name="doctor" style="height: 55px">
+            <option selected>Choose Doctor</option>
+            <option value="1">Doctor 1</option>
+            <option value="2">Doctor 2</option>
+            <option value="3">Doctor 3</option>
+        </select>
+    </div>
+             
+            <div class="links">
+              <a href="#">Forgot Password</a> <a href="register">Signup</a>
+            </div>
+
+            <div class="inputBox">
+              <input type="submit" value="Login" />
+            </div></form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partial -->
+  </body>
+</html>

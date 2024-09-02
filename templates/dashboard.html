@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Update Here</h1>
+    <form action="updateuser">
+      <input type="text" name="name" id=""value={{user.name}} required /><br /><br />
+      <input type="text" name="email" id="" readonly value={{user.email}} required /><br /><br />
+      <input type="text" name="mobile" id="" value={{user.mobile}} required/><br /><br />
+      <input type="text" name="date" id="" value={{user.date}} required /><br /><br />
+      <input type="text" name="time" id="" value={{user.time}} required /><br /><br />
+      <button type="submit" name="Update">Update</button>
+      <button type="submit" name="delete">Delete</button>
+      <button type="submit" name="logout">Logout</button>
+    </form>
+  </body>
+</html>
